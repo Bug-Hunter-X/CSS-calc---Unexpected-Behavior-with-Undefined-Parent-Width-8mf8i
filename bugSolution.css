@@ -1,0 +1,11 @@
+/* bugSolution.css */
+.parent {
+  width: 500px; /* Define the parent's width */
+  background-color: lightgray;
+}
+
+.child {
+  background-color: lightblue;
+  width: calc(100% - 20px);
+  padding: 10px;
+}
